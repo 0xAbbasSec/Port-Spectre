@@ -25,8 +25,10 @@ Port Spectre is a fast, modern, multi-threaded port scanner built in Python. Ins
 
 ### 1. Clone the repository
 
+```sh
 git clone https://github.com/0xAbbasSec/Port-Spectre.git
 cd Port-Spectre
+```
 
 ### 2. Make the tool globally accessible
 
