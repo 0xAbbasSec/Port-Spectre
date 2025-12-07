@@ -47,7 +47,7 @@ port-spectre --help
 
 ---
 
-🛠 Usage Examples
+### 🛠 Usage Examples
 Scan a single port
 ```sh
 port-spectre 192.168.1.10 80
@@ -86,7 +86,7 @@ port-spectre scanme.nmap.org 80,443 --save results.txt
 
 ---
 
-###⚙ Command-Line Flags/ Flag	Description
+### ⚙ Command-Line Flags/ Flag	Description
 
 -b, --banner	  Grab service banners
 -m, --multithreading	  Enable multi-threaded scanning
@@ -99,7 +99,7 @@ port-spectre scanme.nmap.org 80,443 --save results.txt
 
 ---
 
-###⚠️ Legal Disclaimer
+### ⚠️ Legal Disclaimer
 
 Port Spectre is intended only for authorized security testing and educational purposes.
 Do not use this tool to scan networks or systems without explicit permission.
