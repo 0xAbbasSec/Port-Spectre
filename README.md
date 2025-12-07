@@ -88,14 +88,17 @@ port-spectre scanme.nmap.org 80,443 --save results.txt
 
 ### ⚙ Command-Line Flags/ Flag	Description
 
--b, --banner	  Grab service banners
--m, --multithreading	  Enable multi-threaded scanning
--s, --services	  Show service names next to open ports
---os	  Attempt simple OS detection (via TTL)
---profile <mode>	  Choose scan speed: slow, normal, fast, aggressive
---open-only	  Show only open ports (hide closed ports)
---save <file>	  Save scan results to a text file
---no-color	  Disable colorized output (for plain terminals or logs)
+| Flag | Description |
+|------|-------------|
+| `-b`, `--banner` | Grab service banners |
+| `-m`, `--multithreading` | Enable multi-threaded scanning |
+| `-s`, `--services` | Show service names next to open ports |
+| `--os` | Attempt simple OS detection (via TTL) |
+| `--profile <mode>` | Choose scan speed: `slow`, `normal`, `fast`, `aggressive` |
+| `--open-only` | Show only open ports |
+| `--save <file>` | Save results to a text file |
+| `--no-color` | Disable colorized output |
+
 
 ---
 
