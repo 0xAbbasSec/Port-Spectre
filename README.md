@@ -32,17 +32,17 @@ cd Port-Spectre
 
 Give execute permissions:
 ```sh
-chmod +x port-spectre
+chmod +x portspectre.py
 ```
 
 Install system-wide (on Linux/macOS):
 ```sh
-sudo cp port-spectre /usr/local/bin/
+sudo cp portspectre.py /usr/local/bin/portspectre
 ```
 
 You can now run the tool from anywhere:
 ```sh
-port-spectre --help
+portspectre --help
 ```
 
 ---
@@ -50,38 +50,38 @@ port-spectre --help
 ### 🛠 Usage Examples
 Scan a single port
 ```sh
-port-spectre 192.168.1.10 80
+portspectre 192.168.1.10 80
 ```
 
 Scan a comma-separated list of ports
 ```sh
-port-spectre 10.0.0.5 21,22,80,443
+portspectre 10.0.0.5 21,22,80,443
 ```
 Scan a port range
 ```sh
-port-spectre scanme.nmap.org 1-1000
+portspectre scanme.nmap.org 1-1000
 ```
 Enable banner grabbing
 ```sh
-port-spectre scanme.nmap.org 22,80 -b
+portspectre scanme.nmap.org 22,80 -b
 ```
 
 Multi-threaded scan (full-range)
 ```sh
-port-spectre 192.168.1.10 1-65535 -m
+portspectre 192.168.1.10 1-65535 -m
 ```
 Attempt OS detection
 ```sh
-port-spectre 192.168.1.10 80 --os
+portspectre 192.168.1.10 80 --os
 ```
 
 Use aggressive scanning speed
 ```sh
-port-spectre 10.10.10.10 1-500 --profile aggressive
+portspectre 10.10.10.10 1-500 --profile aggressive
 ```
 Save the scan results to a file
 ```sh
-port-spectre scanme.nmap.org 80,443 --save results.txt
+portspectre scanme.nmap.org 80,443 --save results.txt
 ```
 
 ---
